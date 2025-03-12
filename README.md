@@ -1,7 +1,20 @@
 # **Práctica de Airflow**
+
 Para esta práctica, Airflow se ejecutará en un [docker-compose.yml](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html) que se encargará de inicializar toda la arquitectura de la herramienta.
 
-**This file contains several service definitions:**
+---
+
+## En esta práctica se ha visto:
+- Fundamentos de Airflow
+- Instalación, configuración
+- Creación de DAGS
+- Utilización de Operadores
+- Orquestación y Monitorización
+- Sensores, templates, Xcoms, BranchPythonOperators, etc.
+
+---
+
+**This file contains several service definitions - Airflow Achitecture**
 
 - `airflow-scheduler `- The scheduler monitors all tasks and DAGs, then triggers the task instances once their dependencies are complete.
 
